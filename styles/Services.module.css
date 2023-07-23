@@ -1,0 +1,18 @@
+.Services{
+    height: 100vh;
+    background-color: black;  
+    color: white;
+}
+.service_container{
+    margin: 48px;
+}
+.service_container h4{
+    font-weight: 400;
+    font-size: 1.3vw;
+    margin-top: 2.4rem;
+}
+.service_container h1{
+    font-weight: 700;
+    font-size: 3.5vw;
+    margin-top: 4vw;
+}
