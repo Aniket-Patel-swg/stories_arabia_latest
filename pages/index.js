@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Navbar from "../Components/Navbar";
 import styles from "../styles/Home.module.css";
 import Tagline from "../Components/Tagline";
