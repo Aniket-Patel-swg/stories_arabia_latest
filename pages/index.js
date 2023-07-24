@@ -4,6 +4,15 @@ import Tagline from "../Components/Tagline";
 import Services from "../Components/Services";
 
 export default function Home() {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "//code.tidio.co/r5i1ps01rp43iqay4flpaqiacdo7jbyz.js";
+    script.async = true;
+
+    // Enter your public key above
+    document.body.appendChild(script);
+  }, []);
   return (
     <>
       <Navbar />
