@@ -16,7 +16,7 @@ export default function Home() {
   }, []);
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <div className={styles.hero_container}>
         <div className={styles.overlay}></div>
         <div className={styles.image}>

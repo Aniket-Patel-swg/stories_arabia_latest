@@ -10,3 +10,29 @@
 .Tagline h1{
     font-size: 2vw;
 }
+@media (max-width: 1020px) {
+    .Tagline{
+    height: 80vh;
+    text-align: center;
+    }
+    .Tagline h1{
+        font-size: 3.4vw;
+    }
+}
+@media (max-width: 650px) {
+    .Tagline{
+    height: 60vh;
+    }
+    .Tagline h1{
+        font-size: 5vw;
+    }
+}
+@media (max-width: 450px) {
+    .Tagline{
+    height: 50vh;
+    }
+    .Tagline h1{
+        font-size: 6vw;
+        font-weight: 300;
+    }
+}
