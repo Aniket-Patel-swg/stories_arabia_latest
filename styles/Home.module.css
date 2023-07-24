@@ -32,7 +32,7 @@
   font-size: 3.5vw;
   font-family: 'Montserrat';
   font-weight: bolder;
-  grid-row: 22/30;
+  grid-row: 19/30;
   grid-column: 1/15;
   margin-left: 2vw;
 }
@@ -49,4 +49,14 @@
 }
 .welcome_text p {
   margin-top: 0.75vw;
+}
+.whatsapp_section{
+  position: fixed;
+  object-fit: contain;
+  bottom: 15px;
+  left: 10px;
+  z-index: 20 ;
+}
+.whatsapp_section img{
+  max-width: 70px;
 }

@@ -27,6 +27,11 @@ export default function Home() {
           </section>
         </section>
       </div>
+      <section className={styles.whatsapp_section}>
+        <a href="https://wa.me/+7990154651" target="_blank">
+          <img src="/Images/whatsapp_icon.png" alt="" />
+        </a>
+      </section>
       <Tagline />
       <Services />
     </>
