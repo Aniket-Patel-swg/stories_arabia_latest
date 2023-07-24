@@ -16,7 +16,7 @@ export default function Home() {
   }, []);
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className={styles.hero_container}>
         <div className={styles.overlay}></div>
         <div className={styles.image}>
@@ -33,12 +33,11 @@ export default function Home() {
               Connecting Brands with Engaging Stories. <br /> Welcome to Stories
               Arabia
             </p>
-            {/* <section className={styles.scroll_down}>Scroll to Explore</section> */}
           </section>
         </section>
       </div>
       <section className={styles.whatsapp_section}>
-        <a href="https://wa.me/+7990154651" target="_blank">
+        <a href="https://wa.me/+917990154651" target="_blank">
           <img src="/Images/whatsapp_icon.png" alt="" />
         </a>
       </section>
