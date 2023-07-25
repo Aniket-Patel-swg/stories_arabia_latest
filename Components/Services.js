@@ -31,7 +31,7 @@ const Services = () => {
               </li>
             </ul>
           </section>
-          <section className={styles.services_list2}>
+          <section className={styles.services_list2}> 
             <hr />
             <ul>
               <li>

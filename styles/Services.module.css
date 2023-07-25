@@ -52,3 +52,29 @@
 .services_list2{
     width: 30%;
 }
+@media (max-width: 1040px) {
+    .services_list{
+        flex-direction: column;
+    }
+    .services_quote{
+        width: 100%;
+    }
+    .services_quote h4{
+        font-size: 1.5rem;
+        margin: 2.3vw 0px;
+    }
+    .services_list1{
+        width: 100%;
+    }
+    .services_list1 p{
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+    .services_list2{
+        width: 100%;
+    }
+    .services_list2 p{
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+}
