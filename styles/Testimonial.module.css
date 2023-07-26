@@ -1,0 +1,78 @@
+.testimonails{
+    background-color: #E9E8E9;
+    padding: 48px;
+}
+.testimonails p{
+    margin-top: 15px;
+    font-weight: 600;
+}
+.testimonails h1{
+    font-size: 6vw;
+    margin-top: 4.5vw;
+    letter-spacing: 0.1rem;
+    font-family: 'Archivo';
+}
+.testimonials_carousel{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0px 30px;
+    padding: 2rem;
+    margin-top: 5vw;
+    justify-content: center;
+    background: url('../public/Images/pexels-essow-k-936722.jpg');
+    background-position: center;
+    object-fit: contain;
+}
+.testimonials_card{
+    background-color: white;
+    padding: 2rem 1.2rem;
+    border-radius: 0.5rem;
+    /* width: 25%; */
+}
+.testimonial_overlay{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.422);
+}
+.testimonials_card h1{
+    font-size: 2rem;
+    margin-top: 15px;
+}
+.testimonials_card p{
+    font-size: 1.2vw;
+    margin-top: 1.3rem;
+    font-weight: 200;
+}
+@media (max-width: 730px) {
+ .testimonails{
+    padding: 24px;
+ }   
+    .testimonails p{
+        font-size: 2.5vw;
+    }
+    .testimonials_carousel h1{
+        margin: 1vw 0px;
+    }
+    .testimonials_carousel{
+        margin: 0px 10px;
+        margin-top: 3rem;
+    }
+}
+@media (max-width: 500px) {
+    .testimonials_carousel{
+        margin: 0px 10px;
+        margin-top: 3rem;
+    }
+    .testimonials_card{
+        width: 100%;
+    }
+    .testimonials_card h1{
+        font-size: 1.5rem;
+    }
+    .testimonials_card p{
+        font-size: 0.8rem;
+    }
+    .clients_quote{
+        font-size: 8rem;
+    }
+}

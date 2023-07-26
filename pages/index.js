@@ -5,6 +5,7 @@ import Tagline from "../Components/Tagline";
 import Services from "../Components/Services";
 import About from "../Components/About";
 import Projects from "../Components/Projects";
+import Testimonails from "../Components/Testimonials";
 
 export default function Home() {
   useEffect(() => {
@@ -47,6 +48,7 @@ export default function Home() {
       <Services />
       <About />
       <Projects />
+      <Testimonails />
     </>
   );
 }
