@@ -4,7 +4,7 @@ const Gallary = () => {
   return (
     <>
       <div className={styles.gallary}>
-        <hr /> 
+        <hr />
         <h2>Our Gallary</h2>
         <div className={styles.grid_wrapper}>
           <div>
@@ -110,6 +110,43 @@ const Gallary = () => {
             />
           </div> */}
         </div>
+        <section className={styles.social_media}>
+          <hr />
+          <p>Follow us on social media</p>
+          <h1>
+            Stay up to date with the latest news, announcements and events.
+          </h1>
+          <section className={styles.social}>
+            <div className={styles.link}>
+              <hr />
+              <section className={styles.inner_link}>
+                <a href="https://www.instagram.com/storiesarabia/?hl=en" target="_blank">
+                  Instagram
+                </a>
+              </section>
+            </div>
+            <div className={styles.link}>
+              <hr />
+              <section className={styles.inner_link}>
+                <a href="https://www.facebook.com/storiesarabia/" target="_blank">Facebook</a>
+              </section>
+            </div>
+            <div className={styles.link}>
+              <hr />
+              <section className={styles.inner_link}>
+                <a href="https://twitter.com/storiesarabia?lang=en" target="_blank">Twitter</a>
+              </section>
+            </div>
+            <div className={styles.link}>
+              <hr />
+              <section className={styles.inner_link}>
+                <a href="https://www.linkedin.com/company/storiesarabia/" target="_blank">
+                  Linkedin
+                </a>
+              </section>
+            </div>
+          </section>
+        </section>
       </div>
     </>
   );
