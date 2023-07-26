@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import Tagline from "../Components/Tagline";
 import Services from "../Components/Services";
 import About from "../Components/About";
+import Projects from "../Components/Projects";
 
 export default function Home() {
   useEffect(() => {
@@ -45,6 +46,7 @@ export default function Home() {
       <Tagline />
       <Services />
       <About />
+      <Projects />
     </>
   );
 }
