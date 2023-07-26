@@ -66,6 +66,9 @@
     .services_list1{
         width: 100%;
     }
+    .service_container h4{
+        font-size: 3vw;
+    }
     .services_list1 p{
         font-size: 1.5rem;
         font-weight: 100;
@@ -76,5 +79,16 @@
     .services_list2 p{
         font-size: 1.5rem;
         font-weight: 100;
+    }
+}
+@media (max-width: 450px) {
+    .Services{
+        margin: 24px;
+    }
+    .service_container h4{
+        font-size: 1rem;
+    }
+    .service_container h1{
+        font-size: 1.4rem;
     }
 }

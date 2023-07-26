@@ -3,6 +3,7 @@ import Navbar from "../Components/Navbar";
 import styles from "../styles/Home.module.css";
 import Tagline from "../Components/Tagline";
 import Services from "../Components/Services";
+import About from "../Components/About";
 
 export default function Home() {
   useEffect(() => {
@@ -43,6 +44,7 @@ export default function Home() {
       </section>
       <Tagline />
       <Services />
+      <About />
     </>
   );
 }
