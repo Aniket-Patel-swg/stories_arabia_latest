@@ -6,7 +6,6 @@ const About = () => {
       <div className={styles.contact_section}>
         <div className={styles.overlay}>
           <section className={styles.about_section}>
-            {/* <hr /> */}
             <section className={styles.about_flex}>
               <div className={styles.about_left}>
                 <hr />
