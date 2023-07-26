@@ -1,0 +1,31 @@
+.choose{
+    margin: 48px;
+}
+.choose h1{
+    font-size: 6.5vw;
+}
+.unique_section{
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+}
+.unique_section ul{
+    list-style-type: none;
+}
+.unique_section p{
+    margin: 3rem 0px;
+    cursor: pointer;
+    font-size: 3vw;
+    font-weight: 300;
+}
+
+@media (max-width: 550px) {
+    .choose{
+        margin: 28px;
+    }
+    .unique_section p{
+        font-size: 5vw;
+    }
+    .choose h1{
+        font-size: 8vw;
+    }
+}

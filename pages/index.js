@@ -8,6 +8,7 @@ import Projects from "../Components/Projects";
 import Testimonails from "../Components/Testimonials";
 import FAQ from "../Components/FAQ";
 import Gallary from "../Components/Gallary";
+import ChooseUs from "../Components/ChooseUs";
 
 export default function Home() {
   useEffect(() => {
@@ -52,6 +53,7 @@ export default function Home() {
       <Projects />
       <Testimonails />
       <Gallary />
+      <ChooseUs />
       <FAQ />
     </>
   );
