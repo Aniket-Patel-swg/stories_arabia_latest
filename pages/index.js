@@ -9,6 +9,7 @@ import Testimonails from "../Components/Testimonials";
 import FAQ from "../Components/FAQ";
 import Gallary from "../Components/Gallary";
 import ChooseUs from "../Components/ChooseUs";
+import Footer from "../Components/Footer";
 
 export default function Home() {
   useEffect(() => {
@@ -55,6 +56,7 @@ export default function Home() {
       <Gallary />
       <ChooseUs />
       <FAQ />
+      <Footer />
     </>
   );
 }

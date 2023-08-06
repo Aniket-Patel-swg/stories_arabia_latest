@@ -18,7 +18,7 @@
 .navbar_items{
     display: flex;
     justify-content: space-between;
-    width: 15%;
+    width: 20%;
 }
 .navbar a{
     text-decoration: none;

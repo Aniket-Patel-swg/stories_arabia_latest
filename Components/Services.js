@@ -19,7 +19,7 @@ const Services = () => {
             <ul>
               <li>
                 {" "}
-                <p>video Production</p>{" "}
+                <p>Video Production</p>{" "}
               </li>
               <li>
                 <hr />
