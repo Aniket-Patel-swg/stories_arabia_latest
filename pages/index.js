@@ -52,7 +52,6 @@ export default function Home() {
       <Tagline />
       <Services />
       <About />
-      {/* <Projects /> */}
       <AlternateProjects />
       <Testimonails />
       <Gallary />
