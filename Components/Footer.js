@@ -7,6 +7,7 @@ import PhoneInput, {
   isValidPhoneNumber,
 } from "react-phone-number-input";
 import "react-phone-number-input/style.css";
+import emailjs from 'emailjs-com';  
 
 const Footer = () => {
   const [name, setName] = useState("");
@@ -14,7 +15,8 @@ const Footer = () => {
   const [Number, setPhoneNumber] = useState("");
   const [message, setMessage] = useState("");
   const [typing, setTyping] = useState(false);
-
+  const [successfull, setSuccessFull] = useState(false);
+ 
   const [data, setData] = useState({
     name: "",
     email: "",
@@ -22,11 +24,10 @@ const Footer = () => {
     message: "",
   });
 
-  const handleNumberChange = (e) =>{
-    
-    setPhoneNumber(e);
+  const handleNumberChange = (e) => {
+    setPhoneNumber(e); 
     setTyping(true);
-  }
+  };
 
   console.log(typing);
   const handleSubmit = (e) => {
@@ -41,6 +42,8 @@ const Footer = () => {
     setEmail("");
     setPhoneNumber("");
     setMessage("");
+    setTyping(false);
+    setSuccessFull(true);
   };
   return (
     <>
@@ -99,7 +102,15 @@ const Footer = () => {
                 onChange={(e) => handleNumberChange(e)}
                 className={styles.phone_input}
               />
-             {isValidPhoneNumber(Number) && typing ? <p style={{color: "green"}}>Valid Number</p> : typing ? <p style={{color: "red"}}>Invalid Number</p> : ""}
+              {/* {isValidPhoneNumber(Number) && typing ? <p style={{color: "green"}}>Valid Number</p> : typing ? <p style={{color: "red"}}>Invalid Number</p> : ""} */}
+              {Number !== null &&
+                (isValidPhoneNumber(String(Number)) && typing ? (
+                  <p style={{ color: "green" }}>Valid Number</p>
+                ) : typing ? (
+                  <p style={{ color: "red" }}>Invalid Number</p>
+                ) : (
+                  ""
+                ))}
               <textarea
                 name="message"
                 placeholder="Message"
@@ -108,8 +119,15 @@ const Footer = () => {
                   setMessage(e.target.value);
                 }}
               />
-              <button type="submit"> Submit </button>
+              <button type="submit" className={styles.contact_submit}> 
+                Submit 
+              </button>
             </form>
+            {successfull ? (
+              <p style={{ color: "green", marginTop : "1.5vw" }}>Message Sent Successfully</p>
+            ) : (
+              ""
+            )}
           </section>
         </div>
       </div>

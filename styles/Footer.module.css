@@ -42,8 +42,34 @@
 }
 .contact_flex{
     display: flex;
+    justify-content: space-between;
 }
 .contact_form{
     display: flex;
+    width: 80%;
     flex-direction: column;
+}
+.contact{ 
+    width: 40%;
+}
+.contact_form input{
+    background-color: transparent;
+    padding: 1rem;
+    width: 100%;
+    border: none; 
+    color: white;
+    border-bottom: 2px solid #333;
+}
+.contact_form textarea{
+    background-color: transparent;
+    padding: 1rem;
+    width: 100%;
+    border: none; 
+    border-bottom: 2px solid #333;
+    color: white;
+}
+.contact_submit{
+    margin-top: 2rem;
+    padding: 0.6rem;
+    border-radius: 0.4rem;
 }
