@@ -37,6 +37,15 @@ const AlternateProjects = () => {
             <h2>Project for Beach Resort</h2>
           </section>
         </div>
+        <div className={styles.projects}>
+          <section className={styles.projects_image}>
+            <img src="../Images/Projects/project3.png" alt="" />
+          </section>
+          <section className={styles.projects_info}>
+            <h1>Soft launch for Souk Al Marfa</h1>
+            <h2>Free zone in Dubai</h2>
+          </section>
+        </div>
       </div>
     </>
   );
