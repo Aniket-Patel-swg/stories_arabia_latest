@@ -15,14 +15,14 @@ const Navbar = () => {
           <img src="/Images/logo.png" alt="" />
         </a>
 
-        <section className={styles.service_navbar}>
+        {/* <section className={styles.service_navbar}>
           <a>Services</a>
         </section>
         <section className={styles.navbar_items}>
           <a href="/">Home </a>
           <a>About</a>
           <a>Contact</a>
-        </section>
+        </section> */}
       </div>
     </>
   );

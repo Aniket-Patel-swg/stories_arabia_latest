@@ -62,13 +62,13 @@ const Footer = () => {
             <hr />
             <div className={styles.contact_details}>
               <p>
-                <Email style={{ fontSize: 24, color: "gray" }} />
+                <Email style={{  color: "gray" }} />
                 <a href="mailto:info@storiesarabia.com" target="_blank">
                   info@storiesarabia.com
                 </a>
               </p>
               <p>
-                <Call style={{ fontSize: 24, color: "gray" }} />
+                <Call style={{ color: "gray" }} />
                 <a href="tel:+971-55-555-4836" target="_blank">
                   +971-55-555-4836
                 </a>
@@ -85,6 +85,7 @@ const Footer = () => {
                   setName(e.target.value);
                 }}
                 name="name"
+                required
               />
               <input
                 type="email"
