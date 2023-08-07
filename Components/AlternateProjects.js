@@ -21,7 +21,7 @@ const AlternateProjects = () => {
         </div>
         <div className={styles.projects}>
           <section className={styles.projects_image}>
-            <img src="../Images/Projects/project4.png" alt="" />
+            <img src="../Images/Projects/Project4.png" alt="" />
           </section>
           <section className={styles.projects_info}>
             <h1>Circle Mall</h1>
@@ -30,7 +30,7 @@ const AlternateProjects = () => {
         </div>
         <div className={styles.projects}>
           <section className={styles.projects_image}>
-            <img src="../Images/Projects/project2.png" alt="" />
+            <img src="../Images/Projects/Project2.png" alt="" />
           </section>
           <section className={styles.projects_info}>
             <h1>Centara CDD</h1>
@@ -39,7 +39,7 @@ const AlternateProjects = () => {
         </div>
         <div className={styles.projects}>
           <section className={styles.projects_image}>
-            <img src="../Images/Projects/project3.png" alt="" />
+            <img src="../Images/Projects/Project3.png" alt="" />
           </section>
           <section className={styles.projects_info}>
             <h1>Soft launch for Souk Al Marfa</h1>
