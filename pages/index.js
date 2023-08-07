@@ -10,6 +10,7 @@ import FAQ from "../Components/FAQ";
 import Gallary from "../Components/Gallary";
 import ChooseUs from "../Components/ChooseUs";
 import Footer from "../Components/Footer";
+import AlternateProjects from "../Components/AlternateProjects";
 
 export default function Home() {
   useEffect(() => {
@@ -51,7 +52,8 @@ export default function Home() {
       <Tagline />
       <Services />
       <About />
-      <Projects />
+      {/* <Projects /> */}
+      <AlternateProjects />
       <Testimonails />
       <Gallary />
       <ChooseUs />

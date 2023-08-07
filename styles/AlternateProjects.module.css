@@ -1,0 +1,74 @@
+.alternateprojects{
+    margin: 48px;
+}
+.project_heading{
+    margin-top: 1.1vw;
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+.alternateprojects h3{
+    font-size: 3.6vw;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.projects{
+    display: flex;
+}
+.projects_image img{
+    margin-top: 2.3rem;
+    object-fit: contain;
+    border-radius: 0.8rem;
+    max-width: 35vw;
+}
+.projects_info{
+    margin-left: 2.3rem;
+    margin-top: 2.3rem;
+}
+.projects_info h2{
+    font-weight: 800;
+    color: gray;
+    font-size: 1.3vw;
+}
+.projects_info h1{
+    font-weight: 900;
+    font-size: 1.9vw;
+}
+@media (max-width: 800px){
+    .projects_image img{
+        max-width: 45vw;
+    }
+    .projects_info h2{
+        font-size: 1.8vw;
+    }
+    .projects_info h1{
+        font-size: 2.5vw;
+    }
+    .alternateprojects{
+        margin: 35px;
+    }
+    .alternateprojects h3{
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    .project_heading{
+        font-size: 2.5vw;
+    }
+}
+@media (max-width: 600px) {
+    .projects_image img{
+        margin-top: 0.7rem;
+    }
+    .projects_info{
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+    }
+    .projects_info h2{
+        font-size: 2vw;
+    }
+    .projects_info h1{
+        font-size: 2.8vw;
+    }
+    .alternateprojects{
+        margin: 24px;
+    }
+}
