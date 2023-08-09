@@ -15,7 +15,7 @@ const About = () => {
                 <p>
                   Welcome to Stories Arabia, your premier digital marketing
                   partner! We craft compelling narratives that drive results.
-                  Let's tell your brand's story together.
+                  Let us tell your brand story together.
                 </p>
               </div>
             </section>

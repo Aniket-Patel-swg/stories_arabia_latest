@@ -2,6 +2,7 @@ import { useState } from "react";
 import styles from "../styles/Navbar.module.css";
 import { FaBars } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
+import Link from "next/link";
 
 const Navbar = () => {
   const [showHamburgerItems, setShowHamburgerItems] = useState(false);
@@ -15,18 +16,18 @@ const Navbar = () => {
   return (
     <>
       <div className={styles.navbar}>
-        <a href="/">
+        <Link href="/">
           <img src="/Images/logo.png" alt="" />
-        </a>
+        </Link>
 
         <section className={styles.service_navbar}>
-          <a href="/ourservices">Services</a>
+          <Link href="/ourservices">Services</Link>
         </section>
         <section className={styles.navbar_items}>
-          <a href="/">Home </a>
-          <a href="/AboutUs">About</a>
-          <a href="/">Career</a>
-          <a href="/">Contact</a>
+          <Link href="/">Home </Link>
+          <Link href="/AboutUs">About</Link>
+          <Link href="/">Career</Link>
+          <Link href="/">Contact</Link>
         </section>
 
         {/* Hamburger Menu */}
@@ -38,19 +39,19 @@ const Navbar = () => {
             <>
               <section className={styles.hamburger_items}>
                 <span className={styles.hamburger_links}>
-                  <a href="">Home</a>
+                  <Link href="/">Home</Link>
                 </span>
                 <span className={styles.hamburger_links}>
-                  <a href="">Services</a>
+                  <Link href="/">Services</Link>
                 </span>
                 <span className={styles.hamburger_links}>
-                  <a href="">Team</a>
+                  <Link href="/">Team</Link>
                 </span>
                 <span className={styles.hamburger_links}>
-                  <a href="">Career</a>
+                  <Link href="/">Career</Link>
                 </span>
                 <span className={styles.hamburger_links}>
-                  <a href="">About </a>
+                  <Link href="/AboutUs">About </Link>
                 </span>
               </section>
             </>

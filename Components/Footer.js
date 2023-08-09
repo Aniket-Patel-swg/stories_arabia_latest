@@ -50,7 +50,7 @@ const Footer = () => {
       <div className={styles.Footer}>
         <div className={styles.flex_wrapper}>
           <section className={styles.overflow_text}>
-            <span>Do you've any question for us?</span>
+            <span>Do you have any question for us?</span>
           </section>
         </div>
         <div className={styles.contact_flex}>

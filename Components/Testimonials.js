@@ -46,7 +46,7 @@ const Testimonails = () => {
               <>
                 <div key={id} className={styles.testimonials_card}>
                   <h1>{item.Client_name}</h1>
-                  <p>"{item.testimonial}"</p>
+                  <p>{item.testimonial}</p>
                 </div>
               </>
             );
