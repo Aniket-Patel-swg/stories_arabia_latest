@@ -10,7 +10,7 @@ import Gallary from "../Components/Gallary";
 import ChooseUs from "../Components/ChooseUs";
 import Footer from "../Components/Footer";
 import AlternateProjects from "../Components/AlternateProjects";
-import Navbar from "../components/Navbar";
+import Navbar from "../Components/Navbar";
 
 export default function Home() {
   useEffect(() => {
