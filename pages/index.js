@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import Navbar from "../Components/Navbar";
 import styles from "../styles/Home.module.css";
 import Tagline from "../Components/Tagline";
 import Services from "../Components/Services";
@@ -11,6 +10,7 @@ import Gallary from "../Components/Gallary";
 import ChooseUs from "../Components/ChooseUs";
 import Footer from "../Components/Footer";
 import AlternateProjects from "../Components/AlternateProjects";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   useEffect(() => {

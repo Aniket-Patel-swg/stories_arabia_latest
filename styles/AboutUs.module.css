@@ -1,0 +1,87 @@
+.aboutUs{
+    font-size: 3.9vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: black;
+    margin: 0px 48px;
+}
+.aboutus_text{
+    margin: 0px 48px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.4vw;
+    height: 50vh;
+}
+.abouttext_section{
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+}
+.abouttext_section p{
+    width: 59%;
+}
+.aboutus_text button{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    height: min-content;
+    cursor: pointer;
+}
+
+@media (max-width: 950px) {
+    .abouttext_section{
+        display: block;
+    }
+    .abouttext_section p{
+        width: 100%;
+        margin-bottom: 3vw;
+    }
+    .aboutUs{
+        height: 70vh;
+    }
+}
+@media (max-width: 725px) {
+    .aboutUs{
+        height: 50vh;
+        font-size: 2rem;
+    }
+    .aboutus_text{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0px 48px;
+    }
+    .abouttext_section p{
+        width: 100%;
+        margin-top: 3vw;
+    }
+    .aboutus_text p{
+        margin-top: 2vw;
+    }
+    .abouttext_section{
+        width: 100%;
+    }
+}
+
+@media (max-width: 524px) {
+    .aboutUs{
+        font-size: 1.5rem;
+        margin: 24px;
+    }
+    .aboutus_text{
+        margin: 24px;
+    }
+}
+@media (max-width: 394px){
+    .aboutUs{
+        font-size: 1.2rem;
+        margin: 24px;
+        height: 40vh;
+    }
+    .aboutus_text{
+        margin: 24px;
+    }
+}

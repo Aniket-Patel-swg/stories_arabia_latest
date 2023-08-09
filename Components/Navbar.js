@@ -4,10 +4,14 @@ import { FaBars } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 
 const Navbar = () => {
-
-  const [showMediaIcons, setShowMediaIcons] = useState(false);
+  const [showHamburgerItems, setShowHamburgerItems] = useState(false);
   const [showHamburger, setShowHamburger] = useState(false);
-  
+
+  const handleHamburgerClick = () => {
+    setShowHamburger(!showHamburger);
+    setShowHamburgerItems(!showHamburgerItems);
+  };
+
   return (
     <>
       <div className={styles.navbar}>
@@ -15,14 +19,45 @@ const Navbar = () => {
           <img src="/Images/logo.png" alt="" />
         </a>
 
-        {/* <section className={styles.service_navbar}>
-          <a>Services</a>
+        <section className={styles.service_navbar}>
+          <a href="/ourservices">Services</a>
         </section>
         <section className={styles.navbar_items}>
           <a href="/">Home </a>
-          <a>About</a>
-          <a>Contact</a>
-        </section> */}
+          <a href="/AboutUs">About</a>
+          <a href="">Career</a>
+          <a href="/">Contact</a>
+        </section>
+
+        {/* Hamburger Menu */}
+        <div className={styles.hamburger_menu}>
+          <a onClick={(e) => handleHamburgerClick(e)}>
+            {showHamburger ? <IoMdClose /> : <FaBars />}
+          </a>
+          {showHamburgerItems ? (
+            <>
+              <section className={styles.hamburger_items}>
+                <span className={styles.hamburger_links}>
+                  <a href="">Home</a>
+                </span>
+                <span className={styles.hamburger_links}>
+                  <a href="">Services</a>
+                </span>
+                <span className={styles.hamburger_links}>
+                  <a href="">Team</a>
+                </span>
+                <span className={styles.hamburger_links}>
+                  <a href="">Career</a>
+                </span>
+                <span className={styles.hamburger_links}>
+                  <a href="">About </a>
+                </span>
+              </section>
+            </>
+          ) : (
+            <></>
+          )}
+        </div>
       </div>
     </>
   );
