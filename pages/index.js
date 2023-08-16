@@ -11,6 +11,7 @@ import ChooseUs from "../Components/ChooseUs";
 import Footer from "../Components/Footer";
 import AlternateProjects from "../Components/AlternateProjects";
 import Navbar from "../Components/Navbar";
+import Carousel from "../Components/Carousel";
 
 export default function Home() {
   useEffect(() => {
@@ -53,6 +54,7 @@ export default function Home() {
       <Services />
       <About />
       <AlternateProjects />
+      <Carousel />
       <Testimonails />
       <Gallary />
       <ChooseUs />
