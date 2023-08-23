@@ -1,7 +1,7 @@
 .Services{
-    height: 100vh;
-    background-color: black;  
-    color: white;
+    height: 80vh;
+    background-color: white;  
+    color: black;
     padding: 48px;
 }
 .service_container h4{

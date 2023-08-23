@@ -12,6 +12,7 @@ import Footer from "../Components/Footer";
 import AlternateProjects from "../Components/AlternateProjects";
 import Navbar from "../Components/Navbar";
 import Carousel from "../Components/Carousel";
+import Clients from "../Components/Clients";
 
 export default function Home() {
   useEffect(() => {
@@ -50,12 +51,14 @@ export default function Home() {
           <img src="/Images/whatsapp_icon.png" alt="" />
         </a>
       </section>
-      <Tagline />
+      {/* <Tagline /> */}
       <Services />
       <About />
+      {/* <Projects />
       <AlternateProjects />
-      <Carousel />
-      <Testimonails />
+      <Carousel /> */}
+      {/* <Testimonails /> */}
+      <Clients />
       <Gallary />
       <ChooseUs />
       <FAQ />

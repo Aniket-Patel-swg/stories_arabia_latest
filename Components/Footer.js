@@ -29,14 +29,14 @@ const Footer = () => {
     setTyping(true);
   };
 
-  console.log(typing);
+  // console.log(typing);
   const handleSubmit = (e) => {
     // console.log()
 
     e.preventDefault();
     const newData = { name, email, Number, message };
     setData(newData);
-    console.log(newData);
+    // console.log(newData);
 
     setName("");
     setEmail("");

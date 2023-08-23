@@ -25,10 +25,10 @@ const Services = () => {
                 <hr />
                 <p>Public Relations</p>{" "}
               </li>
-              <li>
+              {/* <li>
                 <hr />
                 <p>Website Design</p>
-              </li>
+              </li> */}
             </ul>
           </section>
           <section className={styles.services_list2}> 
@@ -38,15 +38,15 @@ const Services = () => {
                 {" "}
                 <p>Digital Marketing</p>{" "}
               </li>
-              <li>
+              {/* <li>
                 {" "}
                 <hr />
                 <p>Publicity</p>{" "}
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <hr />
                 <p>Website Management</p>
-              </li>
+              </li> */}
             </ul>
           </section>
         </section>

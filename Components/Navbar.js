@@ -21,13 +21,14 @@ const Navbar = () => {
         </Link>
 
         <section className={styles.service_navbar}>
-          <Link href="/ourservices">Services</Link>
+          {/* <Link href="/ourservices">Services</Link> */}
         </section>
         <section className={styles.navbar_items}>
           <Link href="/">Home </Link>
           <Link href="/AboutUs">About</Link>
           <Link href="/">Career</Link>
           <Link href="/">Contact</Link>
+          <Link href="/ourservices">Services</Link>
         </section>
 
         {/* Hamburger Menu */}
