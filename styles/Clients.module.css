@@ -1,0 +1,37 @@
+.clients_wrapper{
+    display: flex;
+    overflow: hidden;
+    gap: 3.5rem;
+    align-items: center;
+}
+.clients_wrapper img{
+    width: 250px;
+}
+.clients_wrapper{
+    padding: 0px 3rem;
+}
+.client_img{
+    transition: transform 0.3s ease-in-out;
+}
+.clients_carousel h1{
+    font-size: 3rem;
+    padding: 2.3rem;
+}
+
+@media (max-width: 1000px) {
+    .clients_wrapper img{
+        width: 200px;
+    }
+    .clients_carousel h1{
+        font-size: 2.7rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .clients_wrapper img{
+        width: 170px;
+    }
+    .clients_carousel h1{
+        font-size: 2.1rem;
+    }
+}

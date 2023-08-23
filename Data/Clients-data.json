@@ -4,6 +4,50 @@
         "path" : "/Images/Almarai.png"
     },
     {
+        "name": "Black_decker",
+        "path" : "/Images/Black_decker.png"
+    },
+    {
+        "name": "Centara",
+        "path" : "/Images/Centara.png"
+    },
+    {
+        "name": "Centro",
+        "path" : "/Images/Centro.png"
+    },
+    {
+        "name": "Circle_mall",
+        "path" : "/Images/Circle_mall.png"
+    },
+    {
+        "name": "Delage",
+        "path" : "/Images/Delage.png"
+    },
+    {
+        "name": "Dragon_mart",
+        "path" : "/Images/Dragon_mart.png"
+    },
+    {
+        "name": "Honor",
+        "path" : "/Images/Honor.png"
+    },
+    {
+        "name": "Meydon",
+        "path" : "/Images/Meydon.png"
+    },
+    {
+        "name": "Rotana Media",
+        "path" : "/Images/Rotana_media.png"
+    },
+    {
+        "name": "Souk Al Marfa",
+        "path" : "/Images/Souk_Al_marfa.png"
+    },
+    {
+        "name": "Stregis",
+        "path" : "/Images/Stregis.png"
+    },
+    {
         "name": "Centro",
         "path" : "/Images/Centr o.png"
     }
