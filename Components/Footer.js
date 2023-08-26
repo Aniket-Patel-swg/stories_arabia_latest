@@ -67,12 +67,12 @@ const Footer = () => {
                   info@storiesarabia.com
                 </a>
               </p>
-              <p>
+              {/* <p>
                 <Call style={{ color: "gray" }} />
                 <a href="tel:+971-55-555-4836" target="_blank">
                   +971-55-555-4836
                 </a>
-              </p>
+              </p> */}
             </div>
           </section>
           <section className={styles.contact}>
