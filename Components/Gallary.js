@@ -1,4 +1,8 @@
 import styles from "../styles/Gallary.module.css";
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Gallary = () => {
   return (
@@ -118,30 +122,39 @@ const Gallary = () => {
           </h1>
           <section className={styles.social}>
             <div className={styles.link}>
-              <hr />
               <section className={styles.inner_link}>
                 <a href="https://www.instagram.com/storiesarabia/?hl=en" target="_blank">
-                  Instagram
+                  Instagram 
+                </a>
+                  <a href="https://www.instagram.com/storiesarabia/?hl=en">
+                    <InstagramIcon fontSize="large" color="primary" />
+                  </a>
+              </section>
+            </div>
+            <div className={styles.link}>
+              <section className={styles.inner_link}>
+                <a href="https://www.facebook.com/storiesarabia/" target="_blank">Facebook</a>
+                <a href="">
+                  <FacebookIcon fontSize="large" color="primary" />
                 </a>
               </section>
             </div>
             <div className={styles.link}>
-              <hr />
-              <section className={styles.inner_link}>
-                <a href="https://www.facebook.com/storiesarabia/" target="_blank">Facebook</a>
-              </section>
-            </div>
-            <div className={styles.link}>
-              <hr />
               <section className={styles.inner_link}>
                 <a href="https://twitter.com/storiesarabia?lang=en" target="_blank">Twitter</a>
+                <a href="https://twitter.com/storiesarabia?lang=en">
+                  <TwitterIcon fontSize="large" color="primary" />
+                </a>
               </section>
+              
             </div>
-            <div className={styles.link}>
-              <hr />
+            <div className={styles.link}> 
               <section className={styles.inner_link}>
                 <a href="https://www.linkedin.com/company/storiesarabia/" target="_blank">
                   Linkedin
+                </a>
+                <a href="https://www.linkedin.com/company/storiesarabia/">
+                  <LinkedInIcon fontSize="large" color="primary" />
                 </a>
               </section>
             </div>

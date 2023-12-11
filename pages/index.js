@@ -57,7 +57,7 @@ export default function Home() {
       {/* <Projects />
       <AlternateProjects />
       <Carousel /> */}
-      {/* <Testimonails /> */}
+      <Testimonails />
       <Clients />
       <Gallary />
       <ChooseUs />

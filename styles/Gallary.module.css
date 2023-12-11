@@ -55,14 +55,20 @@
 .social_media h1{
     font-size: 5vw;
     margin-top: 2vw;
-    width: 70%;
+    width: 100%;
     font-weight: 500;
 }
 .inner_link{
     margin: 3rem;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 .social{
     margin-top: 3.5rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 .social a{
     font-size: 1.3rem;
