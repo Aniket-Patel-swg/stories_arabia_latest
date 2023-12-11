@@ -76,21 +76,28 @@
 @media (max-width: 860px) {
     .social_media h1{
         font-size: 7vw;
-        width: 75%;
+        width: 100%;
     }
     .inner_link{
-        margin: 2rem;
+        margin-right: 2rem;
     }
 }
 @media (max-width: 530px) {
     .social_media h1{
         font-size: 8vw;
-        width: 95%;
+        width: 100%;
     }
     .inner_link{
-        margin: 1rem;
+        margin: 7px;
+        margin-right: 1rem;
     }
     .gallary{
         padding: 30px;
+    }
+}
+
+@media (max-width: 380px) {
+    .social{
+        flex-direction: column;
     }
 }
